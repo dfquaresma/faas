@@ -20,6 +20,7 @@ import (
 )
 
 func main() {
+	log.Printf("Running DFQ Gateway's server")
 
 	osEnv := types.OsEnv{}
 	readConfig := types.ReadConfig{}
